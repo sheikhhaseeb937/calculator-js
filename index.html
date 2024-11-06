@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main">
+    <div class="parent">
+        <div  class="inp">
+            <input id="inp" type="text" placeholder="0">
+       </div>   
+  
+
+<div class="btns">
+    <button onclick=" delall()">AC</button>
+    <button onclick="delOne()">DEL</button>
+    <button onclick="setNum('%')" >%</button>
+    <button  onclick="setNum('/')" style="background-color: rgba(238,148,6,255);color: white;">/</button>
+
+</div>
+
+<div class="btns">
+    <button  onclick="setNum('7')">7</button>
+    <button  onclick="setNum('8')">8</button>
+    <button  onclick="setNum('9')">9</button>
+    <button  onclick="setNum('*')" style="background-color: rgba(238,148,6,255);color: white;">X</button>
+
+</div>
+<div class="btns">
+    <button  onclick="setNum('4')">4</button>
+    <button  onclick="setNum('5')">5</button>
+    <button  onclick="setNum('6')">6</button>
+    <button  onclick="setNum('-')" style="background-color: rgba(238,148,6,255);color: white;">-</button>
+
+</div>
+<div class="btns">
+    <button  onclick="setNum('1')">1</button>
+    <button  onclick="setNum('2')">2</button>
+    <button  onclick="setNum('3')">3</button>
+    <button  onclick="setNum('+')" style="background-color: rgba(238,148,6,255);color: white;">+</button>
+
+</div>
+<div class="btns">
+    <button  onclick="setNum('0')">0</button>
+    <button  onclick="setNum('00')">00</button>
+    <button  onclick="setNum('.')">.</button>
+    <button  onclick="calu()" style="background-color: rgba(238,148,6,255);color: white;">=</button>
+
+</div>
+
+  </div>
+  
+</main>
+</body>
+<script src="app.js"></script>
+</html>
